@@ -18,7 +18,8 @@ In the website, once a new game start, an user can roll ten dices at a time and 
 ### What I learned
 In this exercise, I learned:
 - Use `useState` to create variables, mutate them and let variables reactively change on web page.
-- Use `useEffect` to call external APIs to avoid side effects in React.js
+- Use `useEffect` to watch on the changes on the values to check if the user wins.
+- Use `Array.prototype.every()` to check if the values in the array have a same value.
 - Use `display: grid`, `grid-template-columns: repeat(5, 1fr)`, `gap: 18px` to line up the dices.
 
 ### Links
